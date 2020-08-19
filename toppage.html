@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 文字コード設定 -->
+    <meta charset="UTF-8" />
+    <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ページタイトル -->
+    <title>世界のあそび/ホーム</title>
+    <!-- ページ情報 -->
+    <meta name="description" content="ここにページの説明を書く" />
+    <!-- 検索で引っかかるようにする -->
+    <meta name="keywords" content=",で区切ってキーワード" />
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="./css/toppage.css" />
+    <!-- jquery読み込み(必要な人のみ) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="header-nav-list">
+        <li><a href="#Home">ホーム</a></li>
+        <li><a href="#asobi">おすすめの遊び</a></li>
+        <li><a href="Asia.html">遊び一覧</a></li>
+        <li><a href="#footer">製作者について</a></li>
+      </ul>
+    </header>
+
+    <div class="main-visual" id="Home">
+      <h1 class="main-visual-title">
+        人生をもっと楽しく
+      </h1>
+      <p class="about-site-title">このサイトについて</p>
+        <p class="about-site-text1">このサイトはいつでも気軽に遊ぶことができる</p>
+        <p class="about-site-text2">世界の遊びを載せています。</p>
+        <p class="about-site-text3">ぜひ友達と遊ぶときやイベント事の遊びとして</p>
+        <p class="about-site-text4">取り入れてみてください。</p>
+
+      <div class="main-visual-img-wrap">
+        <img src="images/top notitle-1.png" alt="メインビジュアル画像">
+      </div>
+  
+    </div>
+
+    <div class="world-tap">
+      <h1 class="world-tap-text">
+        どんな遊びがあるのか知りたい地域をタップしてね
+        <img src="images/三角.png" alt="三角マーク">
+      </h1>
+
+      <div class="world-tap-all">
+        <a class="world-tap-country world-tap-europe" href="Europe.html">
+          <div class="world-text">ヨーロッパ</div>
+          <img src="images/横三角.png" alt="">
+        </a>
+        <a class="world-tap-country world-tap-africa" href="Africa.html">
+          <div class="world-text">アフリカ</div>
+          <img src="images/横三角.png" alt="">
+        </a>
+        <a class="world-tap-country world-tap-asia" href="Asia.html">
+          <div class="world-text">アジア</div>
+          <img src="images/横三角.png" alt="">
+        </a>
+        <a class="world-tap-country world-tap-america" href="America.html">
+          <div class="world-text">北米・南米</div>
+          <img src="images/横三角.png" alt="">
+        </a>
+        <div class="world-tap-map">
+          <img src="images/worldmap-1.png" alt="世界地図">
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <section class="asobi" id="asobi">
+      <div class="asobi-title">
+        <img src="images/旗１.png" alt="上の旗">
+        <h1 class="asobi-title-text">
+          おすすめの遊び
+        </h1>
+        <img src="images/旗２.png" alt="上の旗">
+        
+      </div>
+      <ul class="asobi-content">
+        <li>
+          <img src="images/インド.png" alt="インド">
+          <p class="asobi-name">カバディ</p>
+          <p class="asobi-exact">２チームに分かれて、片方のチームはカバディと言いながら2人１組で逃げる相手チームを捕まえます。漫画でたまに描かれる遊びなのでぜひ遊んでみては…？</p>
+        </li>
+        <li>
+          <img src="images/アメリカ.png" alt="アメリカ">
+          <p class="asobi-name">ホットポテトゲーム</p>
+          <p class="asobi-exact">音楽を流しながら皆でボールを回すゲームです。ボールは熱いじゃがいもとして扱うがあるので、いかに熱いじゃがいもに見せるのか演技力が問われます！</p>
+        </li>
+        <li>
+          <img src="images/フランス.png" alt="フランス">
+          <p class="asobi-name">モラじゃんけん</p>
+          <p class="asobi-exact">じゃんけんを少し難しくした遊びです…でも日本のじゃんけんと似ている部分もあるので親しみやすく、すぐに遊ぶことができると思います！　　　　　　</p>
+        </li>
+      </ul>
+      <div class="botan">
+        <a href="Asia.html">遊びをもっとみる
+            <img src="images/横三角.png" alt="">
+        </a>
+      </div>
+      <div class="flag-bottom">
+        <img src="images/旗した.png" alt="旗の下">
+      </div>
+      </section> 
+
+    <section class="footer!" id="footer">
+      <div class="footer">
+      <ul class="footer-content">
+        <li>
+          <h1 class="footer-about">
+            製作者について
+          </h1>
+          <p class="footer-about-name">
+            吉田果歩
+          </p>
+          <p class="footer-about-content">
+            <span>名古屋市立大学</span><br>
+            <span>芸術工学部</span><br>
+            <span>報環境デザイン学科</span>
+          </p>
+        </li>
+        <li>
+          <h2 class="footer-about">
+          お問い合わせ
+          </h2>
+          <p class="footer-about-content">
+            TEL. 052-721-1225
+          </p>
+          <p class="footer-about-content">
+            〒464-0083
+          </p>
+          <p class="footer-about-content">
+            名古屋市千種区北千種2-1-10
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+ </body>
+</html>

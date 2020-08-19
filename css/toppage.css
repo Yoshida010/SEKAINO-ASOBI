@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: "Genshin-normal";
+  src: url(../font/GenShinGothic-Normalのコピー.ttf);
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: "Genshin-medium";
+  src: url(../font/GenShinGothic-Mediumのコピー.ttf);
+  font-weight: 600;
+}
+
+header{
+  width:100%;
+  height:5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6%;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+}
+
+.header-nav-list{
+  list-style: none;
+}
+
+.header-nav-list li{
+  display: inline-block;
+  margin: 0 4.5vw;
+}
+
+.header-nav-list a{
+  text-decoration: none;
+  color:#231300;
+font-size: 1.5vw;
+font-weight: 600;
+letter-spacing: 0.05em;
+font-family: "Genshin-normal";
+}
+
+.main-visual{
+  width: 100%;
+  padding-top: 5vw;
+  position: relative;
+  margin-bottom:5vw;
+}
+
+.main-visual-title{
+  font-family: "Genshin-medium";
+  position: absolute;
+  top: 23%;
+  left: 30.5%;
+  font-size: 4vw;
+  line-height: 2.5;
+  letter-spacing: 0.05em;
+}
+
+.about-site-title{
+  font-family: "Genshin-medium";
+  position: absolute;
+  left: 35.5%;
+  top: 63%;
+  font-size: 3vw;
+}
+
+.about-site-text1{
+  font-family: "Genshin-normal";
+  position: absolute;
+  left: 33.3%;
+  top: 70%;
+  font-size: 1.5vw;
+  line-height: 2;
+}
+.about-site-text2{
+  font-family: "Genshin-normal";
+  position: absolute;
+  left: 39.5%;
+  top: 74%;
+  font-size: 1.5vw;
+  line-height: 2;
+}
+
+.about-site-text3{
+  font-family: "Genshin-normal";
+  position: absolute;
+  left: 33.3%;
+  top: 78%;
+  font-size: 1.5vw;
+  line-height: 2;
+}
+.about-site-text4{
+  font-family: "Genshin-normal";
+  position: absolute;
+  left: 40%;
+  top: 82%;
+  font-size: 1.5vw;
+  line-height: 2;
+}
+
+
+.main-visual-img-wrap{
+  width: 100%;
+  height: 100%;
+}
+
+.main-visual-img-wrap img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.world-tap-text {
+  font-family: "Genshin-normal";
+  font-size: 2vw;
+  text-align: center;
+  margin-bottom: 4vw;
+  letter-spacing: 0.05em;
+}
+
+.world-tap-text img{
+  width: 1.5vw;
+}
+
+.world-tap-all{
+  width: 100%;
+position: relative;
+}
+
+.world-text{
+  padding: 0.5% 0;
+}
+
+.world-tap-africa img ,
+.world-tap-asia img,
+.world-tap-europe img,
+.world-tap-america img{
+  width: 1.8vw;
+  max-width: 12px;
+  margin-left: 2vw;
+}
+
+.world-tap-country{
+  position: absolute;
+  font-family: "Genshin-normal";
+  height: 7vw;
+  max-height: 40px;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: #231300;
+  border: solid 1px #231300;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+  padding: 0 2vw;
+}
+
+.world-tap-europe{
+  top: 23%;
+  left: 40%;
+}
+
+.world-tap-africa{
+  top: 23%;
+  left: 40%;
+}
+
+.world-tap-asia{
+  top: 23%;
+  left: 40%;
+}
+
+.world-tap-america{
+  top: 43%;
+  left: 73%;
+}
+
+.world-tap-map img{
+  width: 100%;
+  margin-bottom: 6vw;
+}
+
+.asobi-title{
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom:5vw;
+}
+
+.asobi-title img{
+  width: 33%;
+}
+
+.asobi-title-text{
+  font-family: "Genshin-normal";
+  font-size: 3vw;
+  line-height: 2.5;
+}
+
+.asobi-content{
+  padding-top: 4vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+  margin-bottom: 4vw;
+} 
+
+.asobi-content li{
+  width: 20%;
+}
+
+.asobi-content img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.asobi-name{
+  font-family: "Genshin-medium";
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.asobi-exact{
+  font-family: "Genshin-normal";
+  font-size: 1.3vw;
+  margin-bottom: 60px;
+}
+
+.botan a{
+
+  font-family: "Genshin-normal";
+  width: 200px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #231300;
+    border: solid 1px #231300;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.botan img{
+  padding: 2px 2px 0 0;
+  width: 10%;
+}
+
+.flag-bottom img{
+  margin-top: 7vw;
+  width: 100%;
+  margin-bottom: 9vw;
+}
+
+.footer{
+  padding: 60px 0;
+  background-color: rgb(194, 194, 194);
+  color: white;
+}
+
+.footer-content{
+  padding-top: 4vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+  margin-bottom: 4vw;
+} 
+
+.footer-about{
+  font-family: "Genshin-medium";
+  font-size: 1.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.footer-about-name{
+  font-size: 1.3vw;
+  margin-bottom: 4px;
+}
+
+.footer-about-content{
+  font-family: "Genshin-normal";
+  font-size: 1vw;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 670px){
+  .asobi-content{
+    flex-direction: column;
+    margin: auto;
+  }
+}
