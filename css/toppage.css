@@ -56,8 +56,9 @@ font-family: "Genshin-normal";
 .main-visual-title{
   font-family: "Genshin-medium";
   position: absolute;
+  text-align: center;
+  width: 100vw;
   top: 23%;
-  left: 30.5%;
   font-size: 4vw;
   line-height: 2.5;
   letter-spacing: 0.05em;
@@ -66,45 +67,21 @@ font-family: "Genshin-normal";
 .about-site-title{
   font-family: "Genshin-medium";
   position: absolute;
-  left: 35.5%;
+  text-align: center;
+  width: 100vw;
   top: 63%;
   font-size: 3vw;
 }
 
-.about-site-text1{
+.about-site-text{
   font-family: "Genshin-normal";
   position: absolute;
-  left: 33.3%;
+  text-align: center;
+  width: 100vw;
   top: 70%;
-  font-size: 1.5vw;
+  font-size: 2vw;
   line-height: 2;
 }
-.about-site-text2{
-  font-family: "Genshin-normal";
-  position: absolute;
-  left: 39.5%;
-  top: 74%;
-  font-size: 1.5vw;
-  line-height: 2;
-}
-
-.about-site-text3{
-  font-family: "Genshin-normal";
-  position: absolute;
-  left: 33.3%;
-  top: 78%;
-  font-size: 1.5vw;
-  line-height: 2;
-}
-.about-site-text4{
-  font-family: "Genshin-normal";
-  position: absolute;
-  left: 40%;
-  top: 82%;
-  font-size: 1.5vw;
-  line-height: 2;
-}
-
 
 .main-visual-img-wrap{
   width: 100%;
@@ -115,6 +92,14 @@ font-family: "Genshin-normal";
 width: 100%;
 height: 100%;
 object-fit: cover;
+}
+
+.pc-main-vis{
+  display: block;
+}
+
+.sp-main-vis{
+  display: none;
 }
 
 .world-tap-text {
@@ -165,18 +150,18 @@ position: relative;
 }
 
 .world-tap-europe{
-  top: 23%;
-  left: 40%;
+  top: 15%;
+  left: 8%;
 }
 
 .world-tap-africa{
-  top: 23%;
-  left: 40%;
+  top: 40%;
+  left: 5%;
 }
 
 .world-tap-asia{
-  top: 23%;
-  left: 40%;
+  top: 27%;
+  left: 34%;
 }
 
 .world-tap-america{
@@ -194,7 +179,7 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: space-around;
-margin-bottom:5vw;
+margin-bottom:71px;
 }
 
 .asobi-title img{
@@ -208,13 +193,12 @@ margin-bottom:5vw;
 }
 
 .asobi-content{
-  padding-top: 4vw;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   margin: auto;
   list-style: none;
-  margin-bottom: 4vw;
+  margin-bottom: 5vw;
 } 
 
 .asobi-content li{
@@ -240,26 +224,25 @@ margin-bottom:5vw;
   margin-bottom: 60px;
 }
 
-.botan a{
-
+.botan{
   font-family: "Genshin-normal";
   width: 200px;
-    height: 40px;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #231300;
-    border: solid 1px #231300;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 10px 20px;
-}
+  height: 55px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #231300;
+  border: solid 1px #231300;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  }
 
 .botan img{
-  padding: 2px 2px 0 0;
-  width: 10%;
-}
+  width: 10px;
+ }
 
 .flag-bottom img{
   margin-top: 7vw;
@@ -276,12 +259,16 @@ margin-bottom:5vw;
 .footer-content{
   padding-top: 4vw;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   list-style: none;
   margin-bottom: 4vw;
 } 
+
+.footer-content li{
+  margin: 0 5px;
+}
 
 .footer-about{
   font-family: "Genshin-medium";
@@ -300,9 +287,103 @@ margin-bottom:5vw;
   margin-bottom: 4px;
 }
 
-@media screen and (max-width: 670px){
+
+.associate-text{
+  text-decoration: none;
+  color: white;
+}
+
+.associate{
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+
+  header{
+    height: 30px;
+    justify-content: space-around;
+  }
+
+  .header-nav-list li{
+    margin: 0;
+    transform: scale(0.8);
+  }
+
+  .header-nav-list a{
+    font-size: 10px;
+  }
+
+  .main-visual{
+    padding-top: 30px;
+  }
+
+  .about-site-text{
+    font-size: 2.5vw;
+    top: 65%;
+  }
+
   .asobi-content{
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+  }
+
+  .main-visual-title{
+    font-size: 4.5vw;
+    top: 21%;
+  }
+
+  .pc-main-vis{
+    display: none;
+  }
+
+  .sp-main-vis{
+    display: block;
+  }
+
+  .about-site-title{
+    font-size: 4vw;
+    top: 62%;
+  }
+
+  .world-tap-text img{
+    width: 2vw;
+  }
+
+  .asobi-title{
+    margin-bottom: 40px;
+  }
+
+  .asobi-title-text{
+    font-size: 4vw;
+  }
+
+  .asobi-content li{
+    width: 180px;
+  }
+
+  .asobi-content img{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-bottom: 13px;
+  }
+
+  .asobi-name{
+    font-size: 17px;
+    margin-bottom: 4px;
+  }
+
+  .asobi-exact{
+    margin-bottom: 50px;
+  }
+
+  .botan{
+    width: 125px;
+    height: 37px;
+    font-size: 10px;
+  }
+
+  .botan img{
+    width: 7px;
   }
 }
