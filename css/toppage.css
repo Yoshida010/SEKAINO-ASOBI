@@ -287,16 +287,18 @@ margin-bottom:71px;
   margin-bottom: 4px;
 }
 
+.associate{
+  font-family: "Genshin-medium";
+  font-size: 1.5vw;
+  text-align: center;
+}
 
 .associate-text{
+  font-family: "Genshin-normal";
   text-decoration: none;
   color: white;
 }
 
-.associate{
-  font-size: 1.5vw;
-  text-align: center;
-}
 
 @media screen and (max-width: 480px){
 
