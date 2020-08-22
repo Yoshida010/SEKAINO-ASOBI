@@ -6,13 +6,13 @@
 
 @font-face{
   font-family: "Genshin-normal";
-  src: url(../font/GenShinGothic-Normalのコピー.ttf);
+  src: url(../font/GenShinGothic-Normal.ttf);
   font-weight: 400;
 }
 
 @font-face{
   font-family: "Genshin-medium";
-  src: url(../font/GenShinGothic-Mediumのコピー.ttf);
+  src: url(../font/GenShinGothic-Medium.ttf);
   font-weight: 600;
 }
 
