@@ -165,7 +165,7 @@ justify-content: space-around;
 
 .exact-text{
   font-family: "Genshin-normal";
-  font-size: 1.3vw;
+  font-size: 13px;
   letter-spacing: 0.08em;
   margin-bottom: 19%;
 }
@@ -214,7 +214,7 @@ justify-content: space-around;
    margin: 80px 0 0 0;
    text-decoration: none;
    color:#231300;
-   font-size: 1.5vw;
+   font-size: 13px;
    font-weight: 600;
    letter-spacing: 0.05em;
    font-family: "Genshin-normal";
@@ -362,7 +362,7 @@ justify-content: space-around;
     font-family: "Gendhin-normal";
     text-decoration: none;
     color: #231300;
-    font-size: 3vw;
+    font-size: 10px;
   }
   
   .list-all img{
@@ -399,6 +399,10 @@ justify-content: space-around;
     left: -13%;
     padding: 0;
     margin: 0;
+  }
+
+  .exact-text{
+    font-size: 10px;
   }
 
   .triangle{
