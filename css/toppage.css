@@ -220,7 +220,7 @@ margin-bottom:71px;
 
 .asobi-exact{
   font-family: "Genshin-normal";
-  font-size: 1.3vw;
+  font-size: 13px;
   margin-bottom: 60px;
 }
 
@@ -272,24 +272,19 @@ margin-bottom:71px;
 
 .footer-about{
   font-family: "Genshin-medium";
-  font-size: 1.5vw;
+  font-size: 13px;
   margin-bottom: 0.5vw;
-}
-
-.footer-about-name{
-  font-size: 1.3vw;
-  margin-bottom: 4px;
 }
 
 .footer-about-content{
   font-family: "Genshin-normal";
-  font-size: 1vw;
+  font-size: 13px;
   margin-bottom: 4px;
 }
 
 .associate{
   font-family: "Genshin-medium";
-  font-size: 1.5vw;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -377,6 +372,7 @@ margin-bottom:71px;
 
   .asobi-exact{
     margin-bottom: 50px;
+    font-size: 10px;
   }
 
   .botan{
@@ -387,5 +383,12 @@ margin-bottom:71px;
 
   .botan img{
     width: 7px;
+  }
+
+  .footer-about,
+  .footer-about-content,
+  .associate,
+  .associate-text{
+    font-size: 10px;
   }
 }
